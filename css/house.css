@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*房产资讯*/
+.house-list dl {width: 724px; height: auto; padding-left: 4px; margin-top: 16px; overflow: hidden;}
+.house-list dl dt {width: 100%;}
+.house-list dl dd {width: 353px; background: url("../img/main/li-icon.png") no-repeat left center; padding-left: 9px;}
+.house-list dl dt,
+.house-list dl dd {float: left; display: inline-block; height: 30px; line-height: 30px; overflow: hidden;}
+.house-list dl dt a,
+.house-list dl dd a {line-height: 30px;}
+.house-list dl dt a {font-size: 16px; color: #365d9c;}
+.house-list dl dd a {color: #323232;}
+.house-list dl dt a:hover,
+.house-list dl dd a:hover {text-decoration: underline; color: #bc2d09;}
+
+.house-list ul {width: 728px; height: auto;}
+.house-list ul li {float: left; width: 236px; position: relative; cursor: pointer; overflow: hidden;}
+.house-list ul li p {width: 100%; height: 35px; line-height: 35px; font-size: 14px; color: #fff; background: rgba(0,0,0,0.5); text-align: center; position: absolute; left: 0; bottom: 0;}

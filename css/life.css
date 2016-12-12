@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+.main {width: 1000px; margin: 0 auto; overflow: hidden;}
+.All-left { width: 728px; padding-right: 10px; border-right: 1px solid #ddd; overflow:hidden;}
+
+/*左半边全部模块*/
+.main {width: 1000px; margin: 0 auto; overflow: hidden;}
+.All-left { width: 728px; padding-right: 10px; border-right: 1px solid #ddd; overflow:hidden;}
+/*轮播图*/
+.left-banner {width: 728px; height: 372px; overflow: hidden; position: relative;}
+.left-banner .left-banner-hd {height: 12px; overflow: hidden; position: absolute; right: 5px; bottom: 14px; z-index: 1;}
+.left-banner .left-banner-hd ul{ overflow:hidden; zoom:1; float:left;}
+.left-banner .left-banner-hd ul li{ float:left; margin-right:4px; width:12px; height:12px; border-radius: 6px; background:#b8b8b8; cursor:pointer; }
+.left-banner .left-banner-hd ul li.on{background:#ff6d2b;}
+.left-banner .left-banner-bd {position: relative; height: 100%; z-index: 0;}
+.left-banner .left-banner-bd li {zoom: 1; position: relative; vertical-align:middle;}
+.left-banner .left-banner-bd img {width: 728px; height: 372px; display: block;}
+.left-banner .left-banner-bd p {width: 100%; height: 45px; font-size: 18px; text-indent: 24px; color: #fff; line-height: 45px; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,0.5);}
+.left-banner .prev,
+.left-banner .next {position: absolute; left: 0; top: 50%; margin-top: -25px; display: block; width: 32px; height: 61px; background: url("../img/main/left-banner-prev-next.png") 0 0 no-repeat; filter: alpha(opacity=80); opacity: 0.8; }
+.left-banner .next {left: auto; right: 0; background-position: -49px 0; }
+
+/*小模块*/
+.left-tit {padding: 10px 0; border-bottom: 1px solid #ddd;}
+.left-tit h3 {color: #BB2C0A; font-size: 16px;}
+.left-tit a {padding-left: 6px;}
+.content {width: 100%; overflow: hidden;}
+.left-content-pics {width: auto;}
+.left-content-pics .pic { overflow: hidden; position: relative; cursor: pointer;}
+.left-content-pics .pic p {width: 100%; height: 35px; line-height: 35px; font-size: 14px; text-indent: 18px; color: #fff; background: rgba(0,0,0,0.6); position: absolute; left: 0; bottom: 0; overflow: hidden;}
+.left-content-texts {width: auto;}
+.left-content-texts ul h3 { padding: 4px 0 6px 0;}
+.left-content-texts ul h3 a {font-size: 16px; color: #365d9c; font-family: '宋体';}
+.left-content-texts ul li { padding: 8px 0; background: url("../img/main/li-icon.png") no-repeat left center; text-indent: 10px; line-height: 14px;}
+.left-content-texts ul li a {font-size: 14px; color: #333;}
+.left-content-texts ul a:hover {text-decoration: underline; color: #bf463b;}
+.content .l-ad {width: 727px; height: 91px; display: block;}
+.left-content-pics .pic-list {float: left; position: relative;}
+
+/*推广广告*/
+.l-ad img { margin: 0 auto; overflow: hidden;}
+
+/*右侧模块*/
+.All-right {width: 250px; overflow: hidden;}
+
+.life-new-rank {width: 250px; overflow: hidden;}
+.estate-travel-health .title3,
+.life-new-rank .title3 {width: 250px; height: 30px; line-height: 30px; background: #f6f6f6;}
+.estate-travel-health .title3 a,
+.life-new-rank .title3 a {display: inline-block; width: 33%; text-align: center; color: #555; line-height: 30px; float: left; overflow: hidden;}
+.estate-travel-health .title3 a:nth-of-type(2),
+.life-new-rank .title3 a:nth-of-type(2) {width: 34%;}
+.estate-travel-health .title3 a.on,
+.life-new-rank .title3 a.on { color: #bc2d09; font-weight: bold; border-top: 2px solid #bc2d09; background: #fff;}
+.life-new-rank-bd .hot-con { width: 246px; background: #fff; padding: 0 2px; overflow: hidden;}
+.life-new-rank-bd .hot-con ul li {width: 100%; line-height: 30px; overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.life-new-rank-bd .hot-con ul li a {font-size: 14px; color: #555;}
+.life-new-rank-bd .hot-con .red {color: #bc2d09;}
+.life-new-rank-bd .hot-con li i {color: #555;}
+.life-new-rank-bd .hot-con ul li a:hover {text-decoration: underline; color: #bc2d09;}
+.life-new-rank-bd .hot-con i {padding-right: 10px; font-weight: bold; color: #bc2d09;}
+
+.estate-travel-health-bd .all-right-pic1 {width: 100%; height: auto; display: block; margin-top: 15px; overflow: hidden;}
+.estate-travel-health-bd .all-right-pic1 div {float: left; border: 1px solid #ddd; position: relative; overflow: hidden; cursor: pointer;}
+.estate-travel-health-bd .all-right-pic1 div:nth-of-type(1) {margin-right: 10px;}
+.estate-travel-health-bd .all-right-pic1 div p {width: 100%; height: 25px; line-height: 25px; text-align: center; color: #fff; background: rgba(0,0,0,0.5); position: absolute; left: 0; bottom: 0; }
+.cut-list ul {width: 246px; padding-left: 4px; margin-top: 10px;}
+.cut-list ul li {width: auto; height: 28px; line-height: 28px; background: url("../img/main/li-icon.png") no-repeat left center; padding-left: 7px; overflow: hidden;}
+.cut-list ul li span {color: #0066cc;}
+.cut-list ul li a {padding-left: 6px; color: #323232; overflow: hidden;}
+.cut-list ul li a:hover {text-decoration: underline; color: #B52C1F;}
+
+.tag-cut2 {width: 250px; overflow: hidden;}
+.tag-cut2 .title2 { width: 100%; height: 30px; line-height: 30px; background: #f6f6f6;}
+.tag-cut2 .title2 a {display: block; width: 50%; text-align: center; color: #555; float: left; overflow: hidden;}
+.tag-cut2 .title2 a.on {color: #bc2d09; font-weight: bold; border-top: 2px solid #bc2d09; background: #fff;}
+.tag-cut2 .tag-cut2-bd {margin-top: 10px; }
+.tag-cut2 .tag-cut2-bd .pic-text {width: 250px; height: 85px;}
+.tag-cut2 .tag-cut2-bd .pic-text img {float: left; margin-right: 6px;}
+.tag-cut2 .tag-cut2-bd .pic-text dl {width: 120px; height: 85px; float: left;}
+.tag-cut2 .tag-cut2-bd .pic-text dl dt {width: 100%; height: 14px; font-size: 14px; line-height: 14px; text-align: center; color: #545454; padding: 2px 0; overflow: hidden;}
+.tag-cut2 .tag-cut2-bd .pic-text dl dd {width: 100%; height: 60px; line-height: 20px; color: #878787; margin-top: 6px; overflow: hidden;}
+.tag-cut2 .tag-cut2-bd .pic-text dl dd a {color: #0A66CA;}
+/*热门话题和图片新闻*/
+.hot-topic {width: 250px; overflow: hidden;}
+.pic-news h3,
+.hot-topic h3 {height: auto; border-bottom: 1px solid #ddd; position: relative;}
+.pic-news h3 a,
+.hot-topic h3 a {display: inline-block; font-size: 16px; line-height: 16px; color: #333; padding:0 2px 5px 2px; border-bottom: 2px solid #bc2d09;}
+.hot-topic h3 div {position: absolute; right: 0; bottom: 0;}
+.hot-topic h3 div a {width: 18px; height: 16px; background: url("../img/main/up-down.png") 0 0 no-repeat; padding: 0; border: 0;}
+.hot-topic h3 div a:nth-of-type(2) {background-position: -23px 0;}
+.hot-topic .list {padding-top: 7px; overflow: hidden;}
+.hot-topic .list dl {width: 250px; height: auto; border-bottom: 1px dashed #ddd; padding: 10px 0; overflow: hidden;}
+.hot-topic .list dl:nth-last-of-type(1) {border-bottom: none;}
+.hot-topic .list dl dt {float: right; height: 16px; width: 124px; overflow: hidden;}
+.hot-topic .list dl dt a {font-size: 14px; line-height: 16px; color: #555; text-align: left;}
+.hot-topic .list .pic {float: left; border: 1px solid #ddd; overflow: hidden; margin-right: 6px;}
+.hot-topic .list .text {float: left; width: 120px; line-height: 20px; color: #999; overflow: hidden;}
+
+.pic-news ul {overflow: hidden;}
+.pic-news ul li {list-style: none; float: left; margin: 12px 10px 0 0; overflow: hidden;}
+.pic-news ul li:nth-of-type(2),
+.pic-news ul li:nth-of-type(4) {margin-right: 0;}
+.pic-news ul li a {display: block; width: 118px; height: 93px; border: 1px solid #ddd; position: relative;}
+.pic-news ul li a img {width: 118px; height: 93px;}
+.pic-news ul li a p {position: absolute; left: 0; bottom: 0; width: 100%; height: 25px; line-height: 25px; color: #fff; text-align: center; background: rgba(0,0,0,0.5); overflow: hidden;}
+
+

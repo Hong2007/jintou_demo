@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+.main {width: 1000px; margin: 0 auto; overflow: hidden;}
+.part1, .part2, .part3, .part4 {width: 100%; overflow: hidden;}
+.left-con{width: 280px; overflow: hidden;}
+.main .part1 .mid-con {width: 350px; height: auto; overflow: hidden;}
+.main .part1 .right-con {width: 330px; height: auto; overflow: hidden;}
+
+/* part1 */
+.s-banner {width: 280px; height: 243px; position: relative; overflow: hidden;}
+.s-banner .s-banner-hd {width: 280px; height: 3px; z-index: 1; overflow: hidden; position: absolute; left: 0; bottom: 40px;}
+.s-banner .s-banner-hd ul {width: 100%; float: left; zoom: 1; overflow: hidden;}
+.s-banner .s-banner-hd ul li {float: left; width: 25%; height: 3px; cursor: pointer;}
+.s-banner .s-banner-hd ul li.on{background: #bc2d09;}
+.s-banner .s-banner-bd {position: relative; height: 100%; z-index: 0; overflow: hidden;}
+.s-banner .s-banner-bd li {position: relative; zoom:1; vertical-align:middle;}
+.s-banner .s-banner-bd img {width: 280px; height: 243px; display: block;}
+.s-banner .s-banner-bd p {width: 270px; padding: 0 5px; font-size: 14px; text-align: center; height: 40px; line-height: 40px; color: #fff; background: rgba(0,0,0,0.5); position: absolute; left: 0; bottom: 0; overflow: hidden; white-space: nowrap; text-overflow:ellipsis;}
+.s-banner .prev,
+.s-banner .next {width: 31px; height: 62px; background: url("../img/main/left-banner-prev-next.png") no-repeat 0 0; position: absolute; left: 0; top: 33%;  filter: alpha(opacity=80); opacity: 0.8;}
+.s-banner .next {left: auto; right: 0; background-position: -49px 0;}
+
+.hotFriends {width: 280px; height: 351px; background: url("../img/main/hot-friends-bg.png") no-repeat center; overflow: hidden;}
+.hotFriends dl {width: 260px; height: 331px; margin: 10px;}
+.hotFriends dl dt {width: auto; height: 30px; line-height: 30px;}
+.hotFriends dl dt h3 {width: auto; font-size: 16px; line-height: 30px; background: url("../img/main/hot-icon.png") no-repeat 70px center;}
+.hotFriends dl dd {width: 100%; height: 30px; line-height: 30px;}
+.hotFriends dl dd i{ font-size: 14px; padding-right: 10px; color: #888; font-weight: bold;}
+.hotFriends dl dd i.red {color: #bf463b;}
+.hotFriends dl dd a {font-size: 14px; line-height: 30px; color: #555;}
+.hotFriends dl dd a:hover {text-decoration: underline; color: #bf463b;}
+
+.part1 .mid-con .up {height: 243px;}
+.part1 .mid-con h3 {padding-left: 6px; line-height: 16px; border-left: 2px solid #bf463b; margin: 2px 0 16px 0;}
+.part1 .mid-con .up ul {width: 100%; list-style: none;}
+.part1 .mid-con .up ul li a {height: 36px; font-size: 18px; color: #2279d1; line-height: 36px;}
+.part1 .mid-con .up ul li dl dd {float: left; line-height: 20px; overflow: hidden; margin-right: 6px;}
+.part1 .mid-con .up ul li dl dd:nth-last-child(1) {margin-right: 0;}
+.part1 .mid-con .up ul li dl dd a {height: 20px; font-size: 12px; color: #555; line-height: 20px; margin-right: 6px;}
+.part1 .mid-con .up ul li dl dd:nth-last-child(1) a {margin-right: 0;}
+.part1 .mid-con .up ul a:hover {text-decoration: underline; color: #bf463b;}
+
+.part1 .right-con .up h3 {padding: 0;}
+.part1 .right-con .up h3 span { border: none;}
+.part1 .right-con .up dl,.part1 .right-con .down dl,
+.part1 .mid-con .down dl {width: 100%; height: 90px; padding: 8px 0 9px 0; border-bottom: 1px dashed #ddd;}
+.part1 .right-con .up dl:nth-last-of-type(1) ,
+.part1 .mid-con .down dl:nth-last-of-type(1) {border: none;}
+.part1 .right-con .up dl img,.part1 .right-con .down dl img,
+.part1 .mid-con .down dl img {float: left; width: 120px; height: 90px; margin-right: 8px; overflow: hidden;}
+.part1 .right-con .up dl h3,.part1 .right-con .down dl h3,
+.part1 .mid-con .down dl h3 {display: inline-block; height: 16px; color: #323232; font-weight: bold; border: none; margin: 0; padding: 0 0 6px 0;}
+.part1 .mid-con .down dl dt {width: 220px; float: right; padding-bottom: 5px; overflow: hidden;}
+.part1 .mid-con .down dl dt a {font-size: 16px; font-weight: bold; color: #323232;}
+.part1 .right-con .down dl dt,
+.part1 .right-con .up dl dt {width: 202px; float: right; padding-bottom: 5px; overflow: hidden;}
+.part1 .right-con .down dl dt a,
+.part1 .right-con .up dl dt a {font-size: 16px; font-weight: bold; color: #323232;}
+.part1 .right-con .down dl dd,
+.part1 .right-con .up dl dd {float: left; width: 200px; line-height: 20px; overflow: hidden;}
+.part1 .mid-con .down dl dd {float: left; width: 220px; line-height: 20px; overflow: hidden;}
+.part1 .right-con .up dl dd a,.part1 .right-con .down dl dd a,
+.part1 .mid-con .down dl dd a {color: #2279d1;}
+.part1 .right-con .up dl dd a:hover,
+.part1 .mid-con .down dl dd a:hover {color: #bf463b;}
+.part1 .mid-con .down dl span {display: inline-block; width: 53px; height: 18px; font-size: 12px; color: #bc2d09; line-height: 18px; text-align: center; border: 1px solid #bc2d09; border-radius: 1px; margin-top: 5px; cursor: pointer;}
+.part1 .mid-con .down dl span:hover {background: #bc2d09; color: #fff;}
+
+.part1 .right-con .up { height: 243px;}
+.part1 .right-con .down h3,
+.part1 .right-con .up h3 { border-bottom: 1px solid #ddd; overflow: hidden;}
+.part1 .right-con .down h3 span,
+.part1 .right-con .up h3 span {float: left; padding: 2px 2px 6px 2px; border-bottom: 2px solid #bf463b; color: #bf463b; overflow: hidden;}
+
+.part1 .right-con .down h3 ol {float: right; overflow: hidden;}
+.part1 .right-con .down h3 ol li {float: left; list-style: none; font-size: 12px; overflow: hidden; padding-top: 4px; margin-right: 1px;}
+.part1 .right-con .down h3 ol li a { font-size: 12px; color: #1E4990; font-weight: normal; margin-right: 1px;}
+.part1 .right-con .down h3 ol li a:hover {text-decoration: underline; color: #bf463b;}
+.part1 .right-con .down ul {width: 330px; padding-top: 4px;}
+.part1 .right-con .down ul li { height: 30px; line-height: 30px; padding: 0 2px;}
+.part1 .right-con .down ul li i {width: 3px; height: 3px;background: url("../img/main/li-icon.png") no-repeat center; padding: 0 2px;}
+.part1 .right-con .down ul li a {padding-left: 4px; font-size: 14px; color: #555; line-height: 30px;}
+.part1 .right-con .down ul li a:hover {text-decoration: underline; color: #bf463b;}
+
+/* part2 */
+.part2 .left-con {width: 650px; overflow: hidden;}
+.part2 .right-con {width: 330px; overflow: hidden;}
+.part2 .left-con .up {width: 100%; height: 348px;}
+.part2 .left-con .up:nth-of-type(2) {width: 100%; height: 354px;}
+
+/*.part2 .left-con */.up h3 {width: 100%; padding-bottom: 8px; border-bottom: 1px solid #ddd;}
+/*.part2 .left-con */.up h3 span {display: inline-block; height: 17px; line-height: 17px; border-left: 2px solid #bf463b; padding: 0 6px;}
+/*.part2 .left-con */.up h3 ol {float: right; overflow: hidden; padding-top: 3px;}
+/*.part2 .left-con */.up h3 ol li {float: left; height: 13px; line-height: 12px; font-size: 12px; overflow: hidden; margin-right: 6px;}
+/*.part2 .left-con */.up h3 ol li a {font-weight: normal; color: #1E4990; margin-right: 6px;}
+/*.part2 .left-con */.up h3 ol li a:hover {text-decoration: underline; color: #bf463b;}
+
+.part2 .left-con .up .up-pic {width: 280px; height: 300px; background: url("../img/main/mid-pic-bg.png") no-repeat center; overflow: hidden;}
+.part2 .left-con .up .up-pic a {display: inline-block; width: 264px; height: 283px; margin: 8px 8px 9px 8px; position: relative; overflow: hidden;}
+.part2 .left-con .up .up-pic a img { width: 264px; height: 283px;}
+.part2 .left-con .up .up-pic a p {width: 100%; height: 35px; line-height: 35px; font-size: 14px; color: #fff; text-align: center; background: rgba(0,0,0,0.5); position: absolute; left: 0;bottom: 0; overflow: hidden;}
+.part2 .left-con .up ul { width: 350px; border-bottom: 1px dashed #ddd;}
+.part2 .left-con .up ul:nth-last-of-type(1) {border: none;}
+.part2 .left-con .up ul a {display: inline-block; height: 16px; font-size: 16px; line-height: 16px; color: #2279d1; margin-bottom: 8px;}
+.part2 .left-con .up ul li {height: 30px; line-height: 30px;}
+.part2 .left-con .up ul li i {width:3px; background: url("../img/main/li-icon.png") no-repeat center; padding: 0 2px;}
+.part2 .left-con .up ul li a {font-size: 14px; color: #555; padding-left: 4px;}
+.part2 .left-con .up a:hover {text-decoration: underline; color: #bf463b;}
+
+.part2 .left-con .up .up-pic3 {width: 280px; height: 305px; overflow: hidden;}
+.part2 .left-con .up .up-pic3 a {display: inline-block; float: left; width: 135px; height: 95px; position: relative; overflow: hidden;}
+.part2 .left-con .up .up-pic3 a:nth-of-type(3) {width: 280px; height: 200px; overflow: hidden;}
+.part2 .left-con .up .up-pic3 a p {width: 100%; height: 35px; line-height: 35px; font-size: 14px; color: #fff; text-align: center; background: rgba(0,0,0,0.5); position: absolute; left: 0;bottom: 0; overflow: hidden;}
+
+/*.part2 */.right-con .right-pic {overflow: hidden;}
+/*.part2 */.right-con .right-pic div {float: left; width: 158px; height: 112px; border: 1px solid #e6e6e6; overflow: hidden;}
+/*.part2 */.right-con .right-pic div a {display: inline-block; width: 100%; height: 100%; position: relative; overflow: hidden;}
+/*.part2 */.right-con .right-pic div a i {width: 39px; height: 25px; line-height: 25px; font-style: normal; text-align: center; color: #fff; background: url("../img/main/recom-icon.png") no-repeat center; position: absolute; top: 0; left: 10px; overflow: hidden;}
+/*.part2 */.right-con .right-pic div a p {width: 100%; height: 25px; line-height: 25px; text-align: center; color: #fff; background: rgba(0,0,0,0.5); position: absolute; left: 0;bottom: 0; overflow: hidden;}
+/*.part2 */.right-con .up h4 {width: 100%; height: 35px; line-height: 35px; font-size: 14px; font-weight: normal; background: #f6f6f6 url("../img/main/ad-icon.png") no-repeat 6px center; text-indent: 52px; overflow: hidden; cursor: pointer;}
+/*.part2 */.right-con .up ul {width: 100%; list-style: none;}
+/*.part2 */.right-con .up ul li {width: 100%; height: 30px; line-height: 30px;}
+/*.part2 */.right-con .up ul li a {font-size: 14px; line-height: 30px; color: #333;}
+/*.part2 */.right-con .up ul li a.blue {margin-right: 10px; color: #2279d1;}
+/*.part2 */.right-con .up ul li a:hover {text-decoration: underline; color: #bf463b;}
+.part2 .right-con div.pic3 div {width: 103px; height: 86px; margin-right: 5px;}
+.part2 .right-con .up:nth-of-type(2) ul li a {background: url("../img/main/li-icon.png") no-repeat left center; padding-left: 8px;}
+
+/* part3 */
+.part3 .left-con {width: 650px; overflow: hidden;}
+.part3 .right-con {width: 330px; overflow: hidden;}
+.part3 .left-con .up .list {width: 315px; overflow: hidden;}
+.part3 .left-con .up .list dl {overflow: hidden;}
+.part3 .left-con .up .list dl img {float: left; overflow: hidden; margin-right: 10px;}
+.part3 .left-con .up .list dl dt {float: right; overflow: hidden; width: 185px; margin-bottom: 8px;}
+.part3 .left-con .up .list dl dt a {font-size: 16px; font-weight: bold; color: #323232; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.part3 .left-con .up .list dl dd {float: left; width: 185px; line-height: 20px; overflow: hidden;}
+.part3 .left-con .up .list dl dd a {color: #2279d1;}
+.part3 .left-con .up .list dl a:hover {text-decoration: underline; color: #bf463b;}
+.part3 .left-con .up .list ul {width: 100%;}
+.part3 .left-con .up .list ul h4 {width: 100%; height: 16px; line-height: 16px; padding-bottom: 5px;}
+.part3 .left-con .up .list ul h4 a {font-size: 16px; font-weight: bold; color: #2279d1;overflow: hidden; white-space: nowrap; text-overflow: clip;}
+.part3 .left-con .up .list ul li {width: 100%; height: 30px; line-height: 30px; background: url("../img/main/li-icon.png") no-repeat left center;}
+.part3 .left-con .up .list ul li a {font-size: 14px; line-height: 30px; color: #323232; font-weight: normal; text-decoration: none; padding-left: 8px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.part3 .left-con .up .list a:hover {text-decoration: underline; color: #bf463b;}
+.part3 .right-con .up ul li {background: url("../img/main/li-icon.png") no-repeat left center;}
+.part3 .right-con .up ul li a {padding-left: 8px;}
+.part3 .right-con .up .moveCut {width: 330px; height: 268px;}
+.part3 .right-con .up .moveCut .title {width: 330px; overflow: hidden;}
+.part3 .right-con .up .moveCut .title a {float: left; display: inline-block; width: 104px; height: 28px; font-size: 14px; line-height: 28px; text-align: center; color: #323232; background: #f8f8f8; border: 1px solid #ddd; overflow: hidden;}
+.part3 .right-con .up .moveCut .title a:nth-of-type(2) {margin: 0 6px;}
+.part3 .right-con .up .moveCut .title a.on {color: #fff; background: #CA3831; border-color: #CA3831;}
+
+.part3 .right-con .up .moveCut-bd-list {width: 330px;}
+.part3 .right-con .up .moveCut-bd-list h3 {width: 100%; height: 16px; border: none; padding: 8px 0; margin: 0; overflow: hidden;}
+.part3 .right-con .up .moveCut-bd-list dl dd em,
+.part3 .right-con .up .moveCut-bd-list h3 em {float: left; display: inline-block; width: 26px; height: 16px; background: url("../img/main/right-AQ.png") no-repeat 0 0; overflow: hidden;}
+.part3 .right-con .up .moveCut-bd-list h3 a {float: left; display: inline-block; width: 290px; font-size: 16px; font-weight: normal; line-height: 16px; color: #333; padding-left: 6px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.part3 .right-con .up .moveCut-bd-list h3 a:hover {text-decoration: underline; color: #bf463b;}
+.part3 .right-con .up .moveCut-bd-list dl { margin-top: 8px; overflow: hidden;}
+.part3 .right-con .up .moveCut-bd-list dl img {padding:0 6px; float: left; overflow: hidden;}
+.part3 .right-con .up .moveCut-bd-list dl dd em {background-position: 0 -24px;}
+.part3 .right-con .up .moveCut-bd-list dl dd a span {line-height: 20px; color: #555; cursor: default;}
+
+/*part4*/
+.part4 .up div a {float: left; width: 235px; height: 190px; overflow: hidden; position: relative;}
+.part4 .up div a p {width: 100%; height: 35px; font-size: 14px; line-height: 35px; color: #fff; background: rgba(0,0,0,0.5); text-align: center; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; position: absolute; left: 0; bottom: 0;}
+.part4 .up h3 ol li a {color: red;}
